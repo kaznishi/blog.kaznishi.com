@@ -1,17 +1,13 @@
-baseURL = "https://kaznishi.netlify.com/"
-languageCode = "ja"
-title = "kaznishi I/O"
-
-copyright = "Copyright (c) 2018, all rights reserved."
+baseurl = "/"
+title = "Hugo Themes"
+copyright = "Copyright (c) 2008 - 2014, all rights reserved."
+languageCode = "en-US"
 canonifyurls = true
 paginate = 3
 theme = "hugo-dusk"
 
 googleAnalytics = ""
 disqusShortname = ""
-
-[author]
-  name = "kaznishi"
 
 SectionPagesMenu = "main"
 
@@ -32,16 +28,19 @@ pygmentsCodeFences = true
   identifier = "tag"
   url = "/tags/"
 
+[author]
+  name = ""
+
 [params.meta]
-  keywords = "blog, tech"
-  description = "個人的な備忘録ブログ"
+  keywords = ""
+  description = "Personal blog."
 
 [params]
-  github = "kaznishi"
-  gitlab = ""
-  twitter = ""
-  linkedin = ""
-  email = ""
+  email = "myemail"
+  github = "github id"
+  #gitlab = "gitlab id"
+  twitter = "twitter id"
+  #linkedin = "linkedin id"
 
 [params.colors]
   # hugo-dusk colors
