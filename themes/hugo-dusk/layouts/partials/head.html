@@ -1,8 +1,8 @@
 <head>
 <meta charset="utf-8" />
 <meta name="author" content="{{ .Site.Author.name }}" />
-<meta name="description" content="{{ .Site.Params.meta.description }}" />
-<meta name="keywords" content="{{ .Site.Params.meta.keywords }}" />
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.meta.description }}{{ end }}" />
+<meta name="keywords" content="{{ if isset .Params "tags" }}{{ delimit .Params.tags ", " }}, {{ end }}{{ .Site.Params.meta.keywords }}" />
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 {{ .Hugo.Generator }}
 
@@ -17,16 +17,12 @@
 <style type="text/css">
 {{ partial "theme-colors.css" . | safeCSS }}
 </style>
-
 {{ template "_internal/google_analytics_async.html" . }}
-
-<title>
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
 {{ if eq $url "/" }}
-    {{ .Site.Title }}
+<title>{{ .Site.Title }}</title>
 {{ else }}
-    {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}
+<title>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }} | {{ .Site.Title }}</title>
 {{ end }}
-</title>
 
 </head>
