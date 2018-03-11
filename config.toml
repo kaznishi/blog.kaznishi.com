@@ -32,6 +32,12 @@ pygmentsCodeFences = true
   identifier = "tag"
   url = "/tags/"
 
+[[menu.main]]
+  name = "About"
+  weight = -100
+  identifier = "about"
+  url = "/about/"
+
 [params.meta]
   keywords = "blog, tech"
   description = "個人的な備忘録ブログ"
