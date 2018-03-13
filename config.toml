@@ -1,5 +1,5 @@
 baseURL = "https://kaznishi.netlify.com/"
-languageCode = "ja-JP"
+languageCode = "ja"
 title = "kaznishi I/O"
 
 copyright = "Copyright (c) 2018, all rights reserved."
