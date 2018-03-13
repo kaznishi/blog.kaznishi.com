@@ -49,6 +49,7 @@ pygmentsCodeFences = true
   twitter = "kaznishi1246"
   linkedin = ""
   email = ""
+  googleTagManager = "GTM-5NS6LLS"
 
 [params.colors]
   # hugo-dusk colors
