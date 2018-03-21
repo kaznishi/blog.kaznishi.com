@@ -246,7 +246,7 @@ blockquote {
 }
 
 .list-item {
-  margin: 0 0 20px;
+  margin: 0 0 60px;
   padding: 0;
 }
 
@@ -274,6 +274,18 @@ blockquote {
   color: #222; 
   border-bottom: 1px solid #ddd;
   transition: border-color 300ms;
+}
+
+.list-item .list-item-summary {
+  font-size: 14px;
+}
+
+.list-item .list-item-summary a {
+  font-weight: normal;
+  font-size: 14px;
+  text-decoration: underline;
+  border-bottom: none;
+  display: inline;
 }
 
 .list-item a:hover,
