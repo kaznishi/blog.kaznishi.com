@@ -5,7 +5,6 @@ date: 2018-03-13T23:22:42+09:00
 categories:
   - seminar-memo
 tags:
-  - seminar
   - jaws-ug
 draft: false
 ---
