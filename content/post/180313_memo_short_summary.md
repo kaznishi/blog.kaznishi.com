@@ -2,6 +2,8 @@
 title: "[memo] HugoのSummaryが長くなるのを短くなるように設定する"
 description: ""
 date: 2018-03-13T23:46:56+09:00
+categories:
+  - short-memo
 tags:
   - memo
   - hugo
