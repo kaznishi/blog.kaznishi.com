@@ -1,4 +1,4 @@
-baseURL = "https://kaznishi.netlify.com/"
+baseURL = "https://blog.kaznishi.com/"
 languageCode = "ja"
 hasCJKLanguage = true
 title = "kaznishi I/O"
