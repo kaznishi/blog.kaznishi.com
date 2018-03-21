@@ -1,18 +1,20 @@
-baseurl = "https://blog.kaznishi.com/"
-languageCode = "ja"
-title = "kaznishi I/O"
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Natrium Theme"
 theme = "hugo-natrium-theme"
 preserveTaxonomyNames = true
 rssLimit = 10
 paginate = 10
 pygmentsCodefences = true
 pygmentsStyle = "native"
-hasCJKLanguage = true
-canonifyurls = true
 
 [taxonomies]
     category = "categories"  
     tag = "tags"
+
+[permalinks]
+    post = "/:slug/"
+    page = "/:slug/"
 
 [[menu.main]]
     name = "About"
@@ -29,10 +31,11 @@ canonifyurls = true
     url = "/categories"
     weight = -130
 
-[params.meta]
-    keywords = "技術ブログ, web"
-    description = "個人的な備忘録ブログ"
-
 [params]
-    googleTagManager = "GTM-5NS6LLS"
+    description = ""
 
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"

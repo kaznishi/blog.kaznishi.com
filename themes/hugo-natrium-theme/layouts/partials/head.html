@@ -1,0 +1,45 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{ .Hugo.Generator }}
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@kaznishi" />
+<meta name="twitter:image" content="{{ .Site.BaseURL }}images/site-image.jpg" />
+<meta property="og:image" content="{{ .Site.BaseURL }}images/site-image.jpg">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:locale" content="ja_JP">
+
+{{ if eq .URL "/" }}
+<title>{{ .Title }}</title>
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:type" content="website">
+<meta name="twitter:title" content="{{ .Title }}">
+{{ else }}
+<title>{{ .Title }} | {{ .Site.Title }}</title>
+<meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
+<meta property="og:type" content="article">
+<meta name="twitter:title" content="{{ .Title }} - {{ .Site.Title }}">
+{{ end }}
+
+{{ if and (ne .URL "/") (ne .Description "") }}
+<meta property="description" content="{{ .Description }}">
+<meta property="og:description" content="{{ .Description }}">
+<meta name="twitter:description" content="{{ .Description }}">
+{{ else }}
+<meta property="description" content="{{ .Site.Params.meta.description }}">
+<meta property="og:description" content="{{ .Site.Params.meta.description }}">
+<meta name="twitter:description" content="{{ .Site.Params.meta.description }}">
+{{ end }}
+
+
+<meta name="keywords" content="{{ if isset .Params "tags" }}{{ delimit .Params.tags ", " }}, {{ end }}{{ .Site.Params.meta.keywords }}" />
+
+{{ if .RSSLink }}
+<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ end }}
+
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" media="all">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/fonts.css">
+<link rel="shortcut icon" href="/images/favicon.ico">
+{{ partial "google_tag_manager_head.html" . }}
+q
