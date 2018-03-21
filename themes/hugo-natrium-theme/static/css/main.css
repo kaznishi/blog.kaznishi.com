@@ -81,7 +81,7 @@ blockquote {
 }
 
 .nav {
-  max-width: 800px;
+  max-width: 1020px;
   margin: 0 auto;
   padding: 0 15px;
   font-family: 'Lato', sans-serif;
@@ -90,19 +90,25 @@ blockquote {
 
 .nav-logo {
   float: left;
-  margin-top: -11px;
-  transition: transform 150ms ease-out;
+  margin-top: -33px;
+  text-decoration: none;
+  /* margin-top: -11px; */
+  /* transition: transform 150ms ease-out; */
 }
 
-.nav-logo:hover {
+/* .nav-logo:hover {
   transform: scale(1.1);
+} */
+
+.nav-logo h1 {
+  font-size: 28px;
 }
 
-.nav-logo img {
+/* .nav-logo img {
   display: block;
   max-height: 40px;
   width: auto;
-}
+} */
 
 .nav-links {
   margin: 0;
@@ -132,7 +138,7 @@ blockquote {
 
 .content {
   min-height: calc(100vh - 60px);
-  max-width: 700px;
+  max-width: 1020px;
   margin: 60px auto 80px;
   padding: 0 15px;
   font-size: 16px;
@@ -441,6 +447,10 @@ blockquote {
   content: "\f09b";
 }
 
+.fa-twitter::before {
+  content: "\f099";
+}
+
 .fa-tags::before {
   content: "\f02c";
   float: left;
@@ -468,7 +478,8 @@ blockquote {
   }
 
   .nav-logo {
-    margin-top: -13px;
+    /* margin-top: -13px; */
+    margin-top: -31px;
   }
 
   .nav-logo img {
