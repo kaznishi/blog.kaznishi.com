@@ -1,5 +1,5 @@
 ---
-title: "[勉強会メモ] 3/10 JAWS DAYS 2018"
+title: "3/10 JAWS DAYS 2018"
 description: "JAWS DAYS 2018の書き殴りメモ"
 date: 2018-03-13T23:22:42+09:00
 categories:
