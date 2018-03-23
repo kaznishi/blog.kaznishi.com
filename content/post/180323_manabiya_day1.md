@@ -15,6 +15,7 @@ draft: false
 ---
 
 MANABIYA TERATAIL DEVELOPER DAYS (DAY1) のメモ取りの記録です。
+{{< blogcard "https://manabiya.tech/" >}}
 
 ## 参加したセッション
 
@@ -113,6 +114,8 @@ MANABIYA TERATAIL DEVELOPER DAYS (DAY1) のメモ取りの記録です。
 ---
 
 # インフラ: 分散処理とコンテナ化インフラの面白い関係
+
+
 
 - 登壇者
     - Treasure Data, Inc. 田籠聡さん
