@@ -1,6 +1,6 @@
 ---
 title: "MANABIYA -teratail DEVELOPER DAYS- 1日目に参加してきました"
-description: "MANABIYA -teratail DEVELOPER DAYS- (DAY1) のメモ取りの記録です。"
+description: "MANABIYA -teratail DEVELOPER DAYS- 1日目 のメモ取りの記録です。"
 date: 2018-03-23T22:33:29+09:00
 categories:
   - seminar
@@ -14,7 +14,7 @@ tags:
 draft: false
 ---
 
-MANABIYA TERATAIL DEVELOPER DAYS (DAY1) のメモ取りの記録です。
+MANABIYA -teratail DEVELOPER DAYS- 1日目 のメモ取りの記録です。
 {{< blogcard "https://manabiya.tech/" >}}
 
 ## 参加したセッション
