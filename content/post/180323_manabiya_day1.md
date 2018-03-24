@@ -508,3 +508,6 @@ MANABIYA -teratail DEVELOPER DAYS- 1日目 のメモ取りの記録です。
     - https://speakerdeck.com/katsuhisa91/yuan-oracle-shi-idakedo-mysql-falsesql-shi-xing-ji-hua-nituite-tiyantodiao-beta#
 
 ---
+
+↓続き。翌日分のメモ
+{{< blogcard "https://blog.kaznishi.com/post/180324_manabiya_day2/" >}}

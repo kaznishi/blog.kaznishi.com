@@ -12,8 +12,13 @@ tags:
 draft: false
 ---
 
+昨日に引き続き参加してきました。
 MANABIYA -teratail DEVELOPER DAYS- 2日目 のメモ取りの記録です。
 {{< blogcard "https://manabiya.tech/" >}}
+
+
+↓ちなみに昨日のメモです
+{{< blogcard "https://blog.kaznishi.com/post/180323_manabiya_day1/" >}}
 
 ## 参加したセッション
 
