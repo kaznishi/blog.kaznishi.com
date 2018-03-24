@@ -3,7 +3,7 @@ title: "MANABIYA -teratail DEVELOPER DAYS- 2日目に参加してきました"
 description: "MANABIYA -teratail DEVELOPER DAYS- 2日目 のメモ取りの記録です。"
 date: 2018-03-24T20:14:33+09:00
 categories:
-  - seminar
+  - seminar-memo
 tags:
   - IoT
   - career
