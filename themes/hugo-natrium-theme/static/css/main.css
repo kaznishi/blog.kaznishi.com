@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  font-family: 'Merriweather', serif;
+  font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
   -webkit-hyphens: auto;
   hyphens: auto;
 }
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
   color: #222;
 }
 
@@ -155,7 +155,7 @@ blockquote {
 
 .article-date {
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
   color: #ccc;
 }
 
@@ -188,7 +188,7 @@ blockquote {
 .article-taxonomy {
   list-style: none;
   padding-left: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
   color: #404040;
   font-size: 14px;
   text-align: left;
@@ -253,7 +253,7 @@ blockquote {
 .list-item-date {
   display: block;
   padding: 4px 0;
-  font-family: 'Lato', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
   color: #ccc;
   font-size: 14px;
 }
@@ -269,7 +269,7 @@ blockquote {
   padding: 3px 0;
   text-decoration: none;
   font-size: 17px;
-  font-family: 'Lato', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
   font-weight: bold;
   color: #222; 
   border-bottom: 1px solid #ddd;
@@ -305,14 +305,14 @@ blockquote {
   padding: 5px 0;
   text-decoration: none;
   font-size: 19px;
-  font-family: 'Lato', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
   font-weight: bold;
   color: #222; 
   transition: color 300ms;
 }
 
 .category-item-count {  
-  font-family: 'Lato', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
   margin-right: 15px;
   color: #ccc;
   font-size: 14px;
@@ -332,7 +332,7 @@ blockquote {
 
 .tag-cloud-item a {  
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
   font-weight: bold;
   color: #222;  
   transition: color 300ms;
@@ -352,7 +352,7 @@ blockquote {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
 }
 
 .footer-links {
@@ -395,7 +395,7 @@ blockquote {
   margin: 25px 0;
   padding: 0;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
   font-size: 16px;
 }
 
