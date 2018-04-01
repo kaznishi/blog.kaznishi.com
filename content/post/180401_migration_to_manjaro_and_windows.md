@@ -6,8 +6,6 @@ categories:
   - 雑談
 tags:
   - Linux
-  - Windows
-  - ThinkPad
   - 開発環境
 draft: false
 ---
