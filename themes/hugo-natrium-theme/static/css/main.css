@@ -165,16 +165,15 @@ blockquote {
 
 .article-content a {
   text-decoration: none;
-  color: inherit;
   border-bottom: medium solid #f0f0f0;
   transition: border-color 600ms;
 }
 
-.article-content a:hover,
-.article-content a:focus,
-.article-content a:active {
-  border-color: #606060;
-}
+.article-content a:link { color: #0000ff; }
+.article-content a:visited { color: #b404ae; }
+.article-content a:hover { color: #ff0000; }
+.article-content a:active { color: #ff0000; }
+
 
 .article-content hr {
   width: 150px;
@@ -292,6 +291,11 @@ blockquote {
 .list-item a:focus {
   border-color: #222;
 }
+
+.list-item .list-item-summary a:link { color: #0000ff; }
+.list-item .list-item-summary a:visited { color: #b404ae; }
+.list-item .list-item-summary a:hover { color: #ff0000; }
+.list-item .list-item-summary a:active { color: #ff0000; }
 
 .category-item {
   display: block;
