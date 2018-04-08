@@ -1,38 +1,54 @@
+theme = "blackburn"
 baseurl = "https://blog.kaznishi.com/"
-languageCode = "ja"
 title = "kaznishi I/O"
-theme = "hugo-natrium-theme"
+aurhor = "kaznishi"
+
+copyright = "&copy; 2018. All rights reserved."
+canonifyurls = true
+paginate = 10
+
+languageCode = "ja"
 preserveTaxonomyNames = true
 rssLimit = 10
-paginate = 10
 pygmentsCodefences = true
 pygmentsStyle = "native"
 hasCJKLanguage = true
-canonifyurls = true
 
 [taxonomies]
     category = "categories"  
     tag = "tags"
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = -110
-    
-[[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = -120
+    name = "Home"
+    url = "/"
+    weight = 1
 
 [[menu.main]]
     name = "Categories"
     url = "/categories"
-    weight = -130
+    weight = 10
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 20
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 30
 
 [params.meta]
     keywords = "技術ブログ, web"
     description = "個人的な備忘録ブログ"
 
 [params]
+    brand = "kaznishi I/O"
     googleTagManager = "GTM-5NS6LLS"
+    subtitle = "個人的な備忘録ブログ"
+
+[social]
+    twitter = "kaznishi1246"
+    github = "kaznishi"
+
 

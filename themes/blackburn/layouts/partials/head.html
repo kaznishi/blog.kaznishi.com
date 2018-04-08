@@ -1,0 +1,93 @@
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{ .Hugo.Generator }}
+
+  <link rel="canonical" href="{{ .URL }}" /> 
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@kaznishi" />
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}images/site-image.jpg" />
+  <meta property="og:image" content="{{ .Site.BaseURL }}images/site-image.jpg">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:locale" content="ja_JP">
+  
+  {{ if eq .URL "/" }}
+  <title>{{ .Title }}</title>
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:type" content="website">
+  <meta name="twitter:title" content="{{ .Title }}">
+  {{ else }}
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" content="{{ .Title }} - {{ .Site.Title }}">
+  {{ end }}
+  
+  {{ if and (ne .URL "/") (ne .Description "") }}
+  <meta property="description" content="{{ .Description }}">
+  <meta property="og:description" content="{{ .Description }}">
+  <meta name="twitter:description" content="{{ .Description }}">
+  {{ else }}
+  <meta property="description" content="{{ .Site.Params.meta.description }}">
+  <meta property="og:description" content="{{ .Site.Params.meta.description }}">
+  <meta name="twitter:description" content="{{ .Site.Params.meta.description }}">
+  {{ end }}
+  
+  
+  <meta name="keywords" content="{{ if isset .Params "tags" }}{{ delimit .Params.tags ", " }}, {{ end }}{{ .Site.Params.meta.keywords }}" />
+
+  <!-- RSS -->  
+  {{ if .RSSLink }}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ end }}
+  
+  <!-- CSS -->
+  {{ $purecss := "https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/" }}
+  <link rel="stylesheet" href="{{ $purecss }}pure-min.css">
+
+  {{ "<!--[if lte IE 8]>" | safeHTML }}
+  <link rel="stylesheet" href="{{ $purecss }}grids-responsive-old-ie-min.css">
+  {{ "<![endif]-->" | safeHTML }}
+  {{ "<!--[if gt IE 8]><!-->" | safeHTML }}
+  <link rel="stylesheet" href="{{ $purecss }}grids-responsive-min.css">
+  {{ "<!--<![endif]-->" | safeHTML }}
+
+  {{ "<!--[if lte IE 8]>" | safeHTML }}
+  <link rel="stylesheet" href="/css/side-menu-old-ie.css">
+  {{ "<![endif]-->" | safeHTML }}
+  {{ "<!--[if gt IE 8]><!-->" | safeHTML }}
+  <link rel="stylesheet" href="/css/side-menu.css">
+  {{ "<!--<![endif]-->" | safeHTML }}
+
+  <link rel="stylesheet" href="/css/blackburn.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  <!-- MathJax -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  {{ with .Site.Params.highlightjs }}
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/{{ . }}.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  {{ range $.Site.Params.highlightjs_extra_languages }}
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/{{ . }}.min.js"></script>
+  {{ end }}
+  <script>hljs.initHighlightingOnLoad();</script>
+  {{ end }}
+
+  {{ range .Site.Params.custom_css }}
+    <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+  {{ end }}
+  {{ range .Site.Params.custom_js }}
+    <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
+  {{ end }}
+
+  {{ partial "favicon.html" . }}
+
+  {{ partial "google_tag_manager_head.html" . }}
+
+</head>
