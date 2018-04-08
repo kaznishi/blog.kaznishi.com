@@ -3,7 +3,7 @@ title: "[memo] 普段記事書くときに使うhugoの操作"
 description: "[memo] 普段記事書くときに使うhugoの操作"
 date: 2018-03-11T17:27:37+09:00
 categories:
-  - short-memo
+  - 小ネタ
 tags:
   - hugo
 draft: false

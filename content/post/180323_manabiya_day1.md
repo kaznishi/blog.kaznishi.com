@@ -3,7 +3,7 @@ title: "MANABIYA -teratail DEVELOPER DAYS- 1日目に参加してきました"
 description: "MANABIYA -teratail DEVELOPER DAYS- 1日目 のメモ取りの記録です。"
 date: 2018-03-23T22:33:29+09:00
 categories:
-  - seminar-memo
+  - 勉強会メモ
 tags:
   - infrastructure
   - career

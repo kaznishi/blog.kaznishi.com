@@ -3,7 +3,7 @@ title: "[memo] HugoのSummaryが長くなるのを短くなるように設定す
 description: ""
 date: 2018-03-13T23:46:56+09:00
 categories:
-  - short-memo
+  - 小ネタ
 tags:
   - hugo
 draft: false

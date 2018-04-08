@@ -3,7 +3,7 @@ title: "3/10 JAWS DAYS 2018"
 description: "JAWS DAYS 2018の書き殴りメモ"
 date: 2018-03-13T23:22:42+09:00
 categories:
-  - seminar-memo
+  - 勉強会メモ
 tags:
   - jaws-ug
 draft: false
@@ -330,4 +330,3 @@ draft: false
     - システムが100%AWSになった
 - Amazon Go
     - お客さんが「買わなかった」というデータが取れるのがRFIDの無人レジと違うところ
-
