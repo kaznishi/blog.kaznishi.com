@@ -1,6 +1,6 @@
 ---
 title: "CDN Study (Akamai/Fastly) 参加メモ"
-description: "CDN Study (Akamai/Fastly) 参加メモ"
+description: "4/13に参加したCDN Study (Akamai/Fastly)の参加メモです。AkamaiとFastlyの中の人によるトークが行われました。CDNの過去・現在・未来の流れの話や、AkamaiとFastlyの中身の技術的な話も聞くことができました。"
 date: 2018-04-14T18:00:01+09:00
 categories:
   - 勉強会メモ
@@ -23,11 +23,16 @@ draft: false
 
 ## 今回のテーマの主旨
 
+[導入スライド](https://speakerdeck.com/jxck/cdn-study)
+
 昔と比べてCDNの世界観(※1)が変わっているので、AkamaiとFastlyの中の人にそのあたりの話を聞いてみよう、という会。
 
 ※1: 昔は単純なキャッシュとしての用途でエッジの数が多いことが正義な時代だったが、今はやれることが増えてきていてキャッシュに留まらなくなっていることを指す
 
 ## Akamaiの中の人の話
+
+[発表スライド 岡本さんパート](https://speakerdeck.com/hokamoto/past-present-and-futures-of-cdn-at-cdn-study-http2study)  
+[発表スライド 塲田さんパート](https://www.slideshare.net/ToshiyaBata1/cdn-study-in-http2study-by-bata)
 
 - 登壇者
     - 岡本さん
