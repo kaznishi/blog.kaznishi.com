@@ -1,6 +1,6 @@
 ---
 title: "個人開発PCをManjaro LinuxとWindowsのデュアルブートにしてみた"
-description: "個人開発PCをManjaro LinuxとWindowsのデュアルブートにしてみた"
+description: "個人開発PCをManjaro LinuxとWindowsのデュアルブートにしてみたので、それについてつらつら語っています。"
 date: 2018-04-01T20:09:01+09:00
 categories:
   - 雑談

@@ -1,6 +1,6 @@
 ---
-title: "[memo] HugoのSummaryが長くなるのを短くなるように設定する"
-description: ""
+title: "HugoのSummaryが長くなるのを短くなるように設定する"
+description: "HugoのSummaryが長くなるのを短くなるように設定する"
 date: 2018-03-13T23:46:56+09:00
 categories:
   - 小ネタ

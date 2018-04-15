@@ -1,15 +1,15 @@
 ---
 title: "MANABIYA -teratail DEVELOPER DAYS- 1日目に参加してきました"
-description: "MANABIYA -teratail DEVELOPER DAYS- 1日目 のメモ取りの記録です。"
+description: "MANABIYA -teratail DEVELOPER DAYS- 1日目 のメモ取りの記録です。参加セッション:「AWS上のサービスをスケールする際に取り組むべきこと」「分散処理とコンテナ化インフラの面白い関係」「テックリード/リードエンジニアとしての生存戦略」「VRのこれまでから学ぶ、VR開発の始め方」、モバイル、AI、XRのCrossSession"
 date: 2018-03-23T22:33:29+09:00
 categories:
   - 勉強会メモ
 tags:
-  - infrastructure
-  - career
+  - インフラ
+  - キャリア
   - VR
-  - machine_learning
-  - mobile
+  - 機械学習
+  - モバイル
   - Fastly
 draft: false
 ---

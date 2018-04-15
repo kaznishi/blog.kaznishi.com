@@ -1,13 +1,13 @@
 ---
 title: "MANABIYA -teratail DEVELOPER DAYS- 2日目に参加してきました"
-description: "MANABIYA -teratail DEVELOPER DAYS- 2日目 のメモ取りの記録です。"
+description: "MANABIYA -teratail DEVELOPER DAYS- 2日目 のメモ取りの記録です。参加セッション:「エンジニアのIoTへの関わり方」「エンジニアのための自分経営戦略」、WebのCrossSession"
 date: 2018-03-24T20:14:33+09:00
 categories:
   - 勉強会メモ
 tags:
   - IoT
-  - career
-  - frontend
+  - キャリア
+  - フロントエンド
   - JavaScript
 draft: false
 ---

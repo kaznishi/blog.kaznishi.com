@@ -1,11 +1,15 @@
 ---
 title: "3/10 JAWS DAYS 2018"
-description: "JAWS DAYS 2018の書き殴りメモ"
+description: "JAWS DAYS 2018の書き殴りメモです。参加セッション:「Enterprise Serverlessを実現するための信頼性エンジニアリング」「AWSとユーザーコミュニティが生み出すNo borderな未来」「AWS x 形式手法で人知を超えたセキュリティを手に入れろ」「AWSのマネージドサービスを使ったセキュリティ強化のための自動化」「コンテナを守る技術2018」「先進ユーザーが斬るAWSのIoT/AIそこんとこどうなの？」"
 date: 2018-03-13T23:22:42+09:00
 categories:
   - 勉強会メモ
 tags:
   - jaws-ug
+  - AWS
+  - Serverless
+  - コンテナ
+  - IoT
 draft: false
 ---
 
@@ -15,7 +19,7 @@ draft: false
 
 {{< blogcard "https://jawsdays2018.jaws-ug.jp/" >}}
 
-## [Serverless] Enterjprise Serverlessを実現するための信頼性エンジニアリング
+## [Serverless] Enterprise Serverlessを実現するための信頼性エンジニアリング
 
 - SERVERLESSってなんだっけ
     - サーバーの管理の必要がない
@@ -99,7 +103,7 @@ draft: false
     - 過去から未来へのベクトル、流れを把握し、そのベクトルに自分を合わせていく
     - 今起きているテクノロジーシフトをちゃんと理解すること
 
-## [Security Slot]AWS x 形式手法で陣地を超えたセキュリティを手に入れろ
+## [Security Slot]AWS x 形式手法で人知を超えたセキュリティを手に入れろ
 
 - IAM運用
     - IAM Policy Simulator
