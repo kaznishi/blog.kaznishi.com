@@ -1,6 +1,6 @@
 ---
 title: "技術書典4に行ってきた"
-description: ""
+description: "技術書同人誌即売会、技術書典の第4回開催に行ってきた報告的な"
 date: 2018-04-22T19:57:39+09:00
 categories:
   - 雑談
