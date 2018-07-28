@@ -5,7 +5,7 @@ date: 2018-05-03T14:24:30+09:00
 categories:
   - 勉強の記録
 tags:
-  - Go
+  - Golang
 draft: false
 ---
 
