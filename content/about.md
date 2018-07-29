@@ -1,11 +1,19 @@
 ---
 title: "About"
-description: "About"
+description: "このブログについての説明と、kaznishiについて"
 date: 2018-03-11T17:44:57+09:00
 draft: false
 ---
 
 {{< figure src="/images/site-image.jpg" >}}
+
+## About This Blog
+
+勉強会のメモや、勉強している技術に関するアウトプットや、活動報告などを書いていきます。
+特に新しい情報でなくとも気にせず書いていく予定。自分の備忘録も兼ねています。
+アウトプット増やすという自分目標の成果物のひとつとしての位置づけもあります。
+
+---
 
 ## About Me
 
@@ -23,8 +31,126 @@ Twitter: https://twitter.com/kaznishi1246
 
 Github: https://github.com/kaznishi
 
+---
 
-## About This Blog
+### Work History
 
-特に新しい情報でなくとも気にせず書いていく予定。自分の備忘録も兼ねています。
-アウトプット増やすという自分目標の成果物のひとつとしての位置づけも。
+仕事で今まで触ってきた技術群
+
+2017/10 - 2018/7 社内の各種サービスのプロダクトインフラを横断的に担当
+
+- 使用言語
+    - 様々(Python,YAML,NodeJS,...)
+- 各種ツール、FW、ミドルウェア等
+    - DB: MySQL Aurora, Redshift, ElastiCache Redis,...
+    - OS: Amazon Linux (1,2), Ubuntu, Debian, Alpine, ...
+    - Other:
+        - AWS各種(Lambda, CloudFront, CloudFormation, CodeDeploy, SNS, Athena,...)
+        - GCP(BigQuery, Stackdriver)
+        - CircleCI
+        - Docker
+        - Prometheus
+        - Zabbix
+        - Grafana
+        - Redash
+        - PagerDuty
+        - Nginx
+        - fluentd
+        - etc...
+
+2016/6 - 2017/12 自社メディア向け広告配信システム(Ver.2)
+
+- 使用言語
+    - Scala
+    - JavaScript(ES5, ES6)
+- 各種ツール、FW、ミドルウェア等
+    - DB: MySQL Aurora, Redshift, PostgreSQL(ローカル環境のみ), ElastiCache Redis
+    - OS: Amazon Linux
+    - Other:
+        - Play Framework 2.3
+        - jQuery
+        - babel
+        - gulp
+        - Nginx
+        - fluentd
+        - fabric
+        - PhantomJS
+        - CircleCI
+        - Docker
+        - etc...
+
+2014/5 - 2017/3 SEO効果計測サービスの開発
+
+- 使用言語
+    - PHP
+    - CoffeeScript
+- 各種ツール、FW、ミドルウェア等
+    - DB: 
+        - MySQL
+        - Redshift
+        - PostgreSQL(ローカル環境のみ)
+        - Redis
+        - Memcached
+        - MongoDB
+    - OS: CentOS -> Ubuntu -> Amazon Linux
+    - Other:
+        - Symfony 2.x
+        - Backbone.js
+        - highcharts.js
+        - jQuery
+        - grunt
+        - Apache
+        - Nginx
+        - fluentd
+        - Capistrano
+        - Vagrant
+        - Chef(solo, zero)
+        - PhantomJS
+        - CircleCI
+        - etc...
+
+2013/11 - 2014/4 自社業務基幹システム大型リプレース
+
+- 使用言語
+    - Apex
+    - Visualforce
+- 各種ツール、FW、ミドルウェア等
+    - DB: SOQL
+    - Other:
+        - Force.com IDE
+        - MavensMate
+
+2013/7 - 2013/10 自社メディア向け広告配信システム(Ver.1)
+
+- 使用言語
+    - PHP
+    - JavaScript
+- 各種ツール、FW、ミドルウェア等
+    - DB: 
+        - MySQL
+        - Memcached
+        - Redis
+    - OS: CentOS
+    - Other:
+        - CodeIgniter
+        - jQuery
+        - Apache
+
+2012/4 - 2013/6 社内用業務効率化システムを複数開発
+
+- 使用言語
+    - PHP
+    - JavaScript
+- 各種ツール、FW、ミドルウェア等
+    - DB: 
+        - MySQL
+        - Memcached
+    - OS: CentOS
+    - Other:
+        - CakePHP
+        - DietCake
+        - CodeIgniter
+        - jQuery
+        - Apache
+
+---
