@@ -15,4 +15,6 @@ Aboutページがあまりにも薄かったので更新しました。
 
 色々な技術触ってきたなあという小並感。
 
+Aboutページには↓から。
+
 {{< blogcard "https://blog.kaznishi.com/about/" >}}
