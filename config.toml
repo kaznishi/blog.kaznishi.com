@@ -46,6 +46,7 @@ hasCJKLanguage = true
     brand = "kaznishi I/O"
     googleTagManager = "GTM-5NS6LLS"
     subtitle = "個人的な備忘録ブログ"
+    highlightjs = "dracula"
 
 [social]
     twitter = "kaznishi1246"
