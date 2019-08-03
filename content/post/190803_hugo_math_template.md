@@ -30,7 +30,7 @@ mathjax: true
 {{ end }}
 ```
 
-`{{ if .Params.mathjax }}...{{ end }}` で囲っているのは、MathJaxが必要なページでのみMathjaxをロードするようにするためです。[このように設定する](http://example.com)ことでページ中でMathjaxがロードされるようになります。
+`{{ if .Params.mathjax }}...{{ end }}` で囲っているのは、MathJaxが必要なページでのみMathjaxをロードするようにするためです。[このように設定する](https://github.com/kaznishi/blog.kaznishi.com/commit/152509c1b780b7706871e370677a4faad378196a#diff-f5e86473bb902c3fb5c9d25286cb35f1R10)ことでページ中でMathjaxがロードされるようになります。
 
 また、下記の部分はMathjaxの設定を変更する記述です。
 
