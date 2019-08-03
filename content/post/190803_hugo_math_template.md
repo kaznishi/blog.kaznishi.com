@@ -44,4 +44,3 @@ mathjax: true
 
 試しに書いてみると $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ のような感じになります。
 MathjaxのConfigのデフォルト値は[こちら](http://docs.mathjax.org/en/latest/options/preprocessors/tex2jax.html#configure-tex2jax)に記載されていますので、ご確認ください。
-
