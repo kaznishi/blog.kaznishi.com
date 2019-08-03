@@ -1,5 +1,5 @@
 ---
-title: "Mathjaxで数式を書く"
+title: "Mathjaxで記事中に数式を書く"
 description: "Mathjaxを導入して数式を書けるようにしました。"
 date: 2019-08-03T14:21:00+09:00
 categories:
