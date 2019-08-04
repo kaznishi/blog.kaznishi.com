@@ -1,9 +1,9 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {{ .Hugo.Generator }}
+  {{ hugo.Generator }}
 
-  <link rel="canonical" href="{{ .URL }}" /> 
+  <link rel="canonical" href="{{ .Permalink }}" /> 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@kaznishi" />
   <meta name="twitter:image" content="{{ .Site.BaseURL }}images/site-image.jpg" />
@@ -11,7 +11,7 @@
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:locale" content="ja_JP">
   
-  {{ if eq .URL "/" }}
+  {{ if eq .Permalink "/" }}
   <title>{{ .Title }}</title>
   <meta property="og:title" content="{{ .Title }}">
   <meta property="og:type" content="website">
@@ -23,7 +23,7 @@
   <meta name="twitter:title" content="{{ .Title }} - {{ .Site.Title }}">
   {{ end }}
   
-  {{ if and (ne .URL "/") (ne .Description "") }}
+  {{ if and (ne .Permalink "/") (ne .Description "") }}
   <meta property="description" content="{{ .Description }}">
   <meta property="og:description" content="{{ .Description }}">
   <meta name="twitter:description" content="{{ .Description }}">
