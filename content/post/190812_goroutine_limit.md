@@ -91,7 +91,7 @@ func Concurrent2(inputs []string) {
 }
 ```
 
-## semaphoreパッケージを使った方法
+## golang.org/x/sync/semaphoreパッケージを使った方法
 
 次に`golang.org/x/sync/semaphore`パッケージを用いた方法を紹介します。
 このパッケージではWeighted Semaphoreの実装を利用することができます。
