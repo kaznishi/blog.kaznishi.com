@@ -1,6 +1,6 @@
 ---
 title: "テスト時にGoでBigQueryにテストデータを書き出す"
-description: "Goでfixtureテストを行う方法を書きました。"
+description: "GoでBigQueryのfixtureテストを行う方法を書きました。"
 date: 2019-09-23T15:46:00+09:00
 categories:
   - 小ネタ
