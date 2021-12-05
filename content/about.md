@@ -65,6 +65,10 @@ Github: https://github.com/kaznishi
     - Datadog
     - CircleCI
 
+
+～～～2018/11で転職～～～
+
+
 2017/10 - 2018/10 社内の各種サービスのプロダクトインフラを横断的に担当
 
 - 使用言語
