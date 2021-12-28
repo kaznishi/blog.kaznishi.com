@@ -38,6 +38,11 @@ hasCJKLanguage = true
     url = "/about/"
     weight = 30
 
+[[menu.main]]
+    name = "kaznishi.next"
+    url = "https://next.kaznishi.com"
+    weight = 40
+
 [params.meta]
     keywords = "技術ブログ, web"
     description = "個人的な備忘録ブログ"
