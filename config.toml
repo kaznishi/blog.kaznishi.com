@@ -3,7 +3,7 @@ baseurl = "https://blog.kaznishi.com/"
 title = "kaznishi I/O"
 aurhor = "kaznishi"
 
-copyright = "&copy; 2018-2021 kaznishi"
+copyright = "&copy; 2018-2022 kaznishi"
 canonifyurls = true
 paginate = 10
 

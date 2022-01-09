@@ -35,6 +35,14 @@ Github: https://github.com/kaznishi
 
 ---
 
+### Studying Now
+
+仕事外で現在勉強中の技術(2022年1月時点)
+
+- Unity  
+- TypeScript
+- React  
+
 ### Work History
 
 仕事で今まで触ってきた技術群
