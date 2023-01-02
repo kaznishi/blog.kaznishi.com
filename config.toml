@@ -52,6 +52,7 @@ hasCJKLanguage = true
     googleTagManager = "GTM-5NS6LLS"
     subtitle = "個人的な備忘録ブログ"
     highlightjs = "dracula"
+    amazonJpAffiliate = "kaznishi1246-22"
 
 [social]
     twitter = "kaznishi1246"
