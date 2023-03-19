@@ -55,7 +55,7 @@ Github: https://github.com/kaznishi
     - Go
 - 各種ツール、FW、ミドルウェア等
     - OpenAPI
-    - goa
+    - Goa
     - sqlx
     - Docker
     - Terraform
