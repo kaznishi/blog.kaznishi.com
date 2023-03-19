@@ -15,8 +15,8 @@ draft: false
 
 [吉祥寺.pm #32](https://kichijojipm.connpass.com/event/276411/)で登壇してきました！
 
-<div style="max-width:400px">
-<script async class="speakerdeck-embed" data-id="cba5f33a6f23491887f6a4f57ba9d6ae" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<div style="max-width:600px">
+<script defer class="speakerdeck-embed" data-id="cba5f33a6f23491887f6a4f57ba9d6ae" data-ratio="1.77725118483412" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
 今回の吉祥寺.pmは「finally」がテーマだったので「Finally I can ...」というタイトルにしました。  

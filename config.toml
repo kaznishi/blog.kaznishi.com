@@ -57,3 +57,8 @@ hasCJKLanguage = true
 [social]
     twitter = "kaznishi1246"
     github = "kaznishi"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
