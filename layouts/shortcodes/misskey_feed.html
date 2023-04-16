@@ -1,0 +1,24 @@
+{{- $src := .Get "src" -}}
+{{ $dataJson := getJSON $src }}
+
+  <div class="sns_feed__container">
+    <div class="sns_feed__contents">
+        {{ range $dataJson.items }}
+
+    <div class="sns_feed__block">
+        <figure>
+          <img src="/images/site-image.jpg" />
+        </figure>
+        <div class="sns_feed__block-text">
+          <div class="name">kaznishi<span class="name_reply">@kaznishi@fed.alpha-omega.space</span></div>
+          <div class="date"><a href="{{ .url }}">{{ (time .date_modified).Local | dateFormat "2006/01/02 15:04 MST" }}</a></div>
+          <div class="text">
+            {{ .content_html }}
+          </div>
+        </div>
+    </div>
+    {{ end }}
+    
+    </div>
+  </div>
+

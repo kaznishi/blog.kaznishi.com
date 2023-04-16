@@ -13,6 +13,7 @@ rssLimit = 10
 pygmentsCodefences = true
 pygmentsStyle = "native"
 hasCJKLanguage = true
+timeZone = "Asia/Tokyo"
 
 [taxonomies]
     category = "categories"  
@@ -36,6 +37,11 @@ hasCJKLanguage = true
 [[menu.main]]
     name = "About"
     url = "/about/"
+    weight = 30
+
+[[menu.main]]
+    name = "Misskey"
+    url = "/misskey/"
     weight = 30
 
 [[menu.main]]
