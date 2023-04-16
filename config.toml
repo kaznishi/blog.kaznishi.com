@@ -68,3 +68,8 @@ timeZone = "Asia/Tokyo"
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
+
+[caches]
+    [caches.getjson]
+        dir = ':cacheDir/:project'
+        maxAge = -1
