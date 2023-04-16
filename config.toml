@@ -57,6 +57,7 @@ timeZone = "Asia/Tokyo"
 
 [social]
     twitter = "kaznishi1246"
+    misskey = "https://fed.alpha-omega.space/@kaznishi"
     github = "kaznishi"
 
 [markup]
