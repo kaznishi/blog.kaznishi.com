@@ -40,11 +40,6 @@ timeZone = "Asia/Tokyo"
     weight = 30
 
 [[menu.main]]
-    name = "Misskey"
-    url = "/misskey/"
-    weight = 30
-
-[[menu.main]]
     name = "kaznishi.next"
     url = "https://next.kaznishi.com"
     weight = 40
@@ -68,8 +63,3 @@ timeZone = "Asia/Tokyo"
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
-
-[caches]
-    [caches.getjson]
-        dir = ':cacheDir/:project'
-        maxAge = -1
